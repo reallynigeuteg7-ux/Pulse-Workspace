@@ -1,0 +1,8 @@
+PASS WPF XAML and bundled Montserrat with Cyrillic
+PASS minimum window layout keeps target and start controls usable
+PASS inline validation leaves the UI usable
+PASS probe button displays real status and headers
+PASS actual load test updates metrics, chart, log and export state
+PASS history, help navigation and manual stop button
+PASS closing a running window cancels pending work
+ALL 7 UI CHECKS PASSED

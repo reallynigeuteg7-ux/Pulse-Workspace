@@ -1,0 +1,15 @@
+PASS reject unsupported schemes, credentials and out-of-range settings
+PASS GET probe includes status, timing, bounded body and headers
+PASS HTTP redirects are reported without following them
+PASS response body capped at 64 KiB
+PASS 100 RPS pacing cap, duration limit and exactly one result per request
+PASS four-request concurrency cap and skipped slots under slow responses
+PASS automatic stop on HTTP 429
+PASS automatic stop on HTTP 503
+PASS manual cancellation interrupts in-flight requests
+PASS five-second request timeout
+PASS timeout also covers a stalled response body
+PASS automatic stop after five consecutive connection failures
+PASS nearest-rank P95, mean, errors and cancellations
+PASS CSV metadata, UTF-8 BOM, quoted text and formula escaping
+ALL 14 CHECKS PASSED
